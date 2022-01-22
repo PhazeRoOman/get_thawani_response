@@ -47,6 +47,12 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             require_once THAWANI_RESPONSE_DIR.'template/index.php';
         }
 
+        public function enqueue_tailwind_css($hook){
+            if($hook === 'toplevel_page_get_thawani_response')  {
+                wp_enqueue_style( 'get-thawani-response', plugin_dir_url(__DIR__) .'assets/style.css' );
+            }
+        }
+
     }
 
 // end of if
