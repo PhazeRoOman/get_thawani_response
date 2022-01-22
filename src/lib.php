@@ -21,6 +21,8 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             $environment = $this->get_option('environment');
 
             $this->api = new Thawani\RestAPI( $secret_key , $publishable_key, $environment);
+
+            add_action( 'admin_menu', [$this, 'add_menu']);
         }
 
         public function get_session_json(){
