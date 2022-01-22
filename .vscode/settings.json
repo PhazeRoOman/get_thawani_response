@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "Fira code",
+    "editor.fontLigatures": true,
+    "editor.suggest.preview": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.lineNumbers": "on"
+}
