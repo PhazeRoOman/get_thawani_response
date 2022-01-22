@@ -28,6 +28,7 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             add_action( 'admin_menu', [$this, 'add_menu']);
 
             add_action( 'admin_enqueue_scripts', [$this, 'enqueue_tailwind_css']);
+            add_action('wp_ajax_'.$this->get_response_ID.'_get_session' , [$this, 'get_session_details']);
         }
 
         public function get_session_json(){
