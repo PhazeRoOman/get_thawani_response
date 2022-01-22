@@ -23,6 +23,8 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             $this->api = new Thawani\RestAPI( $secret_key , $publishable_key, $environment);
 
             add_action( 'admin_menu', [$this, 'add_menu']);
+
+            add_action( 'admin_enqueue_scripts', [$this, 'enqueue_tailwind_css']);
         }
 
         public function get_session_json(){
@@ -45,6 +47,12 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
 
         public function response_template(){ 
             require_once THAWANI_RESPONSE_DIR.'template/index.php';
+        }
+
+        public function enqueue_tailwind_css($hook){
+            if($hook === 'toplevel_page_get_thawani_response')  {
+                wp_enqueue_style( 'get-thawani-response', plugin_dir_url(__DIR__) .'assets/style.css' );
+            }
         }
 
     }
