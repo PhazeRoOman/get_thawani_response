@@ -21,11 +21,32 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             $environment = $this->get_option('environment');
 
             $this->api = new Thawani\RestAPI( $secret_key , $publishable_key, $environment);
+
+            add_action( 'admin_menu', [$this, 'add_menu']);
         }
 
         public function get_session_json(){
             $session = $_POST['thawani_session'];
         }
+
+
+        public function add_menu() { 
+            add_menu_page(
+                __('Get Response', "get_thawani_response"),
+                __('Get Thawani Response', "get_thawani_response"),
+                'manage_woocommerce',
+                'get_thawani_response',
+                [$this, 'response_template'],
+                // THAWANI_GW_ICON,
+                null,
+                11
+            );
+        }
+
+        public function response_template(){ 
+            require_once THAWANI_RESPONSE_DIR.'template/index.php';
+        }
+
     }
 
 // end of if

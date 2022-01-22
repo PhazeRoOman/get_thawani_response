@@ -14,7 +14,7 @@
 
 
 define('THAWANI_PLUGIN_DIR' , plugin_dir_path( __DIR__ )); 
-
+define('THAWANI_RESPONSE_DIR' , plugin_dir_path( __FILE__ )); 
 function get_thawnai_creds() { 
 
 }
@@ -28,6 +28,7 @@ function load_thawnai_response() {
 
     require_once 'src/lib.php';
 
+    new GetThawaniResponse();
 }
 
 add_action( 'init', 'load_thawnai_response');
