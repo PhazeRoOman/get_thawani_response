@@ -12,8 +12,8 @@
 
   <!-- form -->
   <div class="my-12">
-    <input type="text" class="w-full !p-4 text-center !border-0 bg-white focus:!outline-hidden !rounded-t text-xl box-border" placeholder="Paste your session ID here" />
-    <button type="button" class="w-full !p-4 text-center border-0 bg-sky-600 hover:bg-sky-700 !rounded-b text-white text-xl shadow">Download JSON Response</button>
+    <input id="get_session_input" type="text" class="w-full !p-4 text-center !border-0 bg-white focus:!outline-hidden !rounded-t text-xl box-border" placeholder="Paste your session ID here" />
+    <button id="get_session" type="button" class="w-full !p-4 text-center border-0 bg-sky-600 hover:bg-sky-700 !rounded-b text-white text-xl shadow">Download JSON Response</button>
   </div>
   <!-- /form -->
 

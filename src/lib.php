@@ -13,7 +13,10 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
 
     class GetThawaniResponse extends Thawani\WC_Gateway_ThawaniGateway { 
 
-        private $api; 
+        private $api;
+        protected $get_response_ID = 'thawani_response';
+
+
         public function __construct(){ 
             $this->init();
             $secret_key = $this->get_option('secret_key');
@@ -25,10 +28,25 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             add_action( 'admin_menu', [$this, 'add_menu']);
 
             add_action( 'admin_enqueue_scripts', [$this, 'enqueue_tailwind_css']);
+            add_action('wp_ajax_'.$this->get_response_ID.'_get_session' , [$this, 'get_session_details']);
         }
 
         public function get_session_json(){
             $session = $_POST['thawani_session'];
+        }
+
+        public function get_session_details() {
+            $session = $_POST['session'];
+
+            if(empty($session)) { 
+                wp_send_json( [
+                    'error' => __('You can not send empty session' , '')
+                ], 400);
+            }
+
+            $response  = $this->api->get_session($session);
+
+            wp_send_json( json_decode($response['body']) , 200 );
         }
 
 
@@ -52,6 +70,7 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
         public function enqueue_tailwind_css($hook){
             if($hook === 'toplevel_page_get_thawani_response')  {
                 wp_enqueue_style( 'get-thawani-response', plugin_dir_url(__DIR__) .'assets/style.css' );
+                wp_enqueue_script( 'get-thawani-response-script', plugin_dir_url(__DIR__) .'assets/script.js' , [], '0.1.0', true );
             }
         }
 
