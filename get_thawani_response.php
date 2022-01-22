@@ -28,6 +28,7 @@ function load_thawnai_response() {
 
     require_once 'src/lib.php';
 
+    new GetThawaniResponse();
 }
 
 add_action( 'init', 'load_thawnai_response');
