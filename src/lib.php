@@ -23,6 +23,8 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             $this->api = new Thawani\RestAPI( $secret_key , $publishable_key, $environment);
 
             add_action( 'admin_menu', [$this, 'add_menu']);
+
+            add_action( 'admin_enqueue_scripts', [$this, 'enqueue_tailwind_css']);
         }
 
         public function get_session_json(){
