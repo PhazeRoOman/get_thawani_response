@@ -55,6 +55,7 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
         public function enqueue_tailwind_css($hook){
             if($hook === 'toplevel_page_get_thawani_response')  {
                 wp_enqueue_style( 'get-thawani-response', plugin_dir_url(__DIR__) .'assets/style.css' );
+                wp_enqueue_script( 'get-thawani-response-script', plugin_dir_url(__DIR__) .'assets/script.js' , [], '0.1.0', true );
             }
         }
 
