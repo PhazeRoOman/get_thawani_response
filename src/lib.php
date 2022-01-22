@@ -14,7 +14,7 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
     class GetThawaniResponse extends Thawani\WC_Gateway_ThawaniGateway { 
 
         private $api;
-        private $plugin_id = 'get_thawani_response';
+        protected $get_response_ID = 'get_thawani_response';
 
         
         public function __construct(){ 
