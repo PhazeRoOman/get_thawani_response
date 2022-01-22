@@ -34,6 +34,20 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             $session = $_POST['thawani_session'];
         }
 
+        public function get_session_details() {
+            $session = $_POST['session'];
+
+            if(empty($session)) { 
+                wp_send_json( [
+                    'error' => __('You can not send empty session' , '')
+                ], 400);
+            }
+
+            $response  = $this->api->get_session($session);
+
+            wp_send_json( json_decode($response['body']) , 200 );
+        }
+
 
         public function add_menu() { 
             add_menu_page(
