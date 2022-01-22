@@ -32,8 +32,8 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
 
         public function add_menu() { 
             add_menu_page(
-                __('Get Response', "thawani"),
-                __('Get Thawani Response', "thawani"),
+                __('Get Response', "get_thawani_response"),
+                __('Get Thawani Response', "get_thawani_response"),
                 'manage_woocommerce',
                 'get_thawani_response',
                 [$this, 'response_template'],
