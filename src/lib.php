@@ -26,6 +26,25 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
         public function get_session_json(){
             $session = $_POST['thawani_session'];
         }
+
+
+        public function add_menu() { 
+            add_menu_page(
+                __('Get Response', "thawani"),
+                __('Get Thawani Response', "thawani"),
+                'manage_woocommerce',
+                'get_thawani_response',
+                [$this, 'response_template'],
+                // THAWANI_GW_ICON,
+                null,
+                11
+            );
+        }
+
+        public function response_template(){ 
+            require_once THAWANI_RESPONSE_DIR.'template/index.php';
+        }
+
     }
 
 // end of if
