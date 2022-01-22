@@ -14,7 +14,7 @@
 
 
 define('THAWANI_PLUGIN_DIR' , plugin_dir_path( __DIR__ )); 
-
+define('THAWANI_RESPONSE_DIR' , plugin_dir_path( __FILE__ )); 
 function get_thawnai_creds() { 
 
 }
