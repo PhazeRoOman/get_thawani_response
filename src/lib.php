@@ -13,7 +13,10 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
 
     class GetThawaniResponse extends Thawani\WC_Gateway_ThawaniGateway { 
 
-        private $api; 
+        private $api;
+        private $plugin_id = 'get_thawani_response';
+
+        
         public function __construct(){ 
             $this->init();
             $secret_key = $this->get_option('secret_key');
