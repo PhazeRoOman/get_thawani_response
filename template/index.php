@@ -12,8 +12,8 @@
 
   <!-- form -->
   <div class="my-12">
-    <input type="text" class="w-full p-4 text-center border-0 bg-white focus:border-o focus:outline-none rounded-t text-xl box-border" placeholder="Paste your session ID here" />
-    <button type="button" class="w-full p-4 text-center border-0 bg-sky-600 hover:bg-sky-700 rounded-b text-white text-xl shadow">Download JSON Response</button>
+    <input type="text" class="w-full !p-4 text-center !border-0 bg-white focus:!outline-hidden !rounded-t text-xl box-border" placeholder="Paste your session ID here" />
+    <button type="button" class="w-full !p-4 text-center border-0 bg-sky-600 hover:bg-sky-700 !rounded-b text-white text-xl shadow">Download JSON Response</button>
   </div>
   <!-- /form -->
 
@@ -25,6 +25,7 @@
   </div>
 
   <div>
-    <p class="text-center text-sm w-1/2 mx-auto">Brought to you by Muhannad @ w7shdev <br /> This plugin only works with @PhazeRoOman/Thawani-for-woocommerce</p>
+    <p class="text-center text-sm w-1/2 mx-auto">Brought to you by Muhannad @ w7shdev <br /> This plugin only works with 
+    <a href="https://github.com/PhazeRoOman/thawani-for-woocommerce" target="_blank">@PhazeRoOman/Thawani-for-woocommerce</a></p>
   </div>
 </div>
