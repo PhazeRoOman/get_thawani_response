@@ -35,6 +35,10 @@ jQuery(document).ready(function($){
         e.preventDefault();
         const get_sesison_value  = $("#get_session_input").val();
 
+        if(get_sesison_value == '' || get_sesison_value == null ) { 
+            window.alert('session value is required')
+            return false; 
+        }
         $.ajax({
             url: ajaxurl,
             method: 'POST',
