@@ -46,6 +46,15 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
 
             $response  = $this->api->get_session($session);
 
+            $http_response_code = wp_remote_retrieve_response_code( $response );
+
+            if($http_response_code != 200) { 
+                wp_send_json( [
+                    'error' => true,
+                    'data' => $response['body']
+                ], 400);
+            }
+
             wp_send_json( json_decode($response['body']) , 200 );
         }
 
