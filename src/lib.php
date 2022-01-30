@@ -5,7 +5,6 @@
 
 if(!defined('THAWANI_PLUGIN_DIR')) {
     die('not defined');
-    // replace  this with notification  
 }else  { 
     require_once THAWANI_PLUGIN_DIR.'thawani-for-woocommerce/src/WC_Gateway_ThawaniGateway.php';
     require_once THAWANI_PLUGIN_DIR.'thawani-for-woocommerce/src/RestAPI.php';
@@ -62,7 +61,6 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
                 'manage_woocommerce',
                 'get_thawani_response',
                 [$this, 'response_template'],
-                // THAWANI_GW_ICON,
                 null,
                 11
             );
@@ -81,5 +79,4 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
 
     }
 
-// end of if
 }
