@@ -31,10 +31,6 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
             add_action('wp_ajax_'.$this->get_response_ID.'_get_session' , [$this, 'get_session_details']);
         }
 
-        public function get_session_json(){
-            $session = $_POST['thawani_session'];
-        }
-
         public function get_session_details() {
             $session = $_POST['session'];
 
