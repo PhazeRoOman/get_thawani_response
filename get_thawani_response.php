@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name:     Get_thawani_response
- * Plugin URI:      PLUGIN SITE HERE
- * Description:     Get thawani response to send it back to the Thawani Team Support
- * Author:          Muhannad Al-Risi
- * Author URI:      https://alrisi.net
+ * Plugin Name:     Get Thawani Response
+ * Plugin URI:      https://github.com/PhazeRoOman/get_thawani_response
+ * Description:     Helper plugin to get Thawani Pay JSON response
+ * Author:          PhazeRo
+ * Author URI:      https://phaze.ro
  * Text Domain:     get_thawani_response
  * Domain Path:     /languages
- * Version:         0.1.0-rc
+ * Version:         0.1.0
  *
  * @package         Get_thawani_response
  */
