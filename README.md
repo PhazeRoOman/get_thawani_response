@@ -10,7 +10,7 @@
     The last step before going to the production made easier for you.
     <br />
     <br />
-    <a href="https://github.com/PhazeRoOman/thawani-for-woocommerce/issues">Report a bug</a>
+    <a href="https://github.com/PhazeRoOman/get_thawani_response/issues">Report a bug</a>
   </p>
 </p>
   <p align="center">
