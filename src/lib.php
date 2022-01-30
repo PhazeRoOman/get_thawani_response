@@ -1,11 +1,14 @@
 <?php
 /**
- * @author Muhannad Al-Risi
+ * @author PhazeRo 
+ * @package Thawani-For-WooCommerce
+ * @since 0.1.0
  */
 
 if(!defined('THAWANI_PLUGIN_DIR')) {
     die('not defined');
 }else  { 
+
     require_once THAWANI_PLUGIN_DIR.'thawani-for-woocommerce/src/WC_Gateway_ThawaniGateway.php';
     require_once THAWANI_PLUGIN_DIR.'thawani-for-woocommerce/src/RestAPI.php';
 
@@ -35,7 +38,7 @@ if(!defined('THAWANI_PLUGIN_DIR')) {
 
             if(empty($session)) { 
                 wp_send_json( [
-                    'error' => __('You can not send empty session' , '')
+                    'error' => __('You can not send empty session' , 'get_thawani_response')
                 ], 400);
             }
 
