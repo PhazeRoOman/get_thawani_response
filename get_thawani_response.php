@@ -15,9 +15,6 @@
 
 define('THAWANI_PLUGIN_DIR' , plugin_dir_path( __DIR__ )); 
 define('THAWANI_RESPONSE_DIR' , plugin_dir_path( __FILE__ )); 
-function get_thawnai_creds() { 
-
-}
 
 function load_thawnai_response() {
     $is_loaded  = is_plugin_active( 'thawani-for-woocommerce/thawani-for-woocommerce.php' );
