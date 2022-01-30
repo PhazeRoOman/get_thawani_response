@@ -1,14 +1,37 @@
-# Get_thawani_response #
+<br />
+<p align="center">
+  <a href="link to the projects website">
+    <img src="https://github.com/PhazeRoOman/thawani-for-woocommerce/raw/master/asset/thawani.svg" alt="Logo" width="150" style="background-color: white">
+  </a>
 
-**Tags:** WooCommerce,Thawani Pay  
-**Requires at least:** 4.5  
-**Tested up to:** 5.9-RC3-52617  
-**Requires PHP:** 7.3  
-**Stable tag:** 0.1.0  
-**License:** MIT  
-**License URI:** https://mit-license.org/  
+  <h1 align="center">Get Thawani Response</h1>
+
+  <p align="center">
+    The last step before going to the production made easier for you.
+    <br />
+    <br />
+    <a href="https://github.com/PhazeRoOman/thawani-for-woocommerce/issues">Report a bug</a>
+  </p>
+</p>
+  <p align="center">
+  <a href="https://github.com/PhazeRoOman/thawani-for-woocommerce/releases/latest/download/thawani-for-woocommerce.zip">Download latest release</a>
+</p>
+<br />
+
+
+
+### Requirement
+
+- **Requires at least:** 4.5  
+- **Tested up to:** 5.9-RC3-52617  
+- **Requires PHP:** 7.3  
+- **Stable tag:** 0.1.0  
+- **License:** [MIT](https://mit-license.org/)  
+
 
 This plugin helps you to get the Response of a success checkout. The Json file will be validated by Thawani Pay, so You can go to **PRODUCTION**.
+
+---
 
 ## Description ##
 
