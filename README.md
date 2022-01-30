@@ -1,5 +1,5 @@
 # Get_thawani_response #
-**Contributors:** [w7shdev](https://profiles.wordpress.org/w7shdev/)  
+
 **Tags:** WooCommerce,Thawani Pay  
 **Requires at least:** 4.5  
 **Tested up to:** 5.9-RC3-52617  
