@@ -54,7 +54,7 @@ This plugin will work only with [Thawani-For-WooCommerce](https://github.com/Pha
 
 ## Screenshots ##
 
-
+![download JSON response](./get_response.gif)
 
 ## Frequently Asked Questions ##
 
