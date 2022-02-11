@@ -26,7 +26,7 @@
 - **Tested up to:** 5.9-RC3-52617  
 - **Requires PHP:** 7.3  
 - **Stable tag:** 0.1.0  
-- **License:** [MIT](https://mit-license.org/)  
+
 
 
 This plugin helps you to get the Response of a success checkout. The Json file will be validated by Thawani Pay, so You can go to **PRODUCTION**.
