@@ -51,6 +51,11 @@ This plugin was made for **non-technical user** who know how to install plugins 
 6. Press on download button & send it to Thawani Pay. 
 7. That's it. 
 
+
+## Screenshots ##
+
+
+
 ## Frequently Asked Questions ##
 
 * **Why I need this plugin ?**
@@ -71,11 +76,6 @@ Please open an issue describing your steps for us to fix the issue.
 Because we care for non-technical users ;)
 
 Answer to foo bar dilemma.
-
-## Screenshots ##
-
-
-
 
 
 ## License
