@@ -25,7 +25,9 @@
   </div>
 
   <div>
-    <p class="text-center text-sm w-1/2 mx-auto">Brought to you by Muhannad @ w7shdev <br /> This plugin only works with 
+    <p class="text-center text-sm w-1/2 mx-auto">
+    <a href="https://phaze.ro" target="_blank" class="text-sky-600 no-underline font-semibold text-base">By PhazeRo</a>  
+    <br /> This plugin only works with 
     <a href="https://github.com/PhazeRoOman/thawani-for-woocommerce" target="_blank">@PhazeRoOman/Thawani-for-woocommerce</a></p>
   </div>
 </div>

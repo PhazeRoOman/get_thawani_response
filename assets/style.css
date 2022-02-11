@@ -91,16 +91,6 @@
   border-radius: 0.25rem
 }
 
-.rounded-t {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem
-}
-
-.rounded-b {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem
-}
-
 .\!rounded-t {
   border-top-left-radius: 0.25rem !important;
   border-top-right-radius: 0.25rem !important
@@ -111,12 +101,12 @@
   border-bottom-left-radius: 0.25rem !important
 }
 
-.border-0 {
-  border-width: 0px
-}
-
 .\!border-0 {
   border-width: 0px !important
+}
+
+.border-0 {
+  border-width: 0px
 }
 
 .bg-sky-600 {
@@ -131,10 +121,6 @@
 
 .p-8 {
   padding: 2rem
-}
-
-.p-4 {
-  padding: 1rem
 }
 
 .\!p-4 {
@@ -164,6 +150,10 @@
   line-height: 1.25rem
 }
 
+.font-semibold {
+  font-weight: 600
+}
+
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity))
@@ -172,6 +162,16 @@
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-sky-600 {
+  --tw-text-opacity: 1;
+  color: rgb(2 132 199 / var(--tw-text-opacity))
+}
+
+.no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none
 }
 
 .shadow {
@@ -183,16 +183,6 @@
 .hover\:bg-sky-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(3 105 161 / var(--tw-bg-opacity))
-}
-
-.focus\:outline-none:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px
-}
-
-.focus\:\!outline-none:focus {
-  outline: 2px solid transparent !important;
-  outline-offset: 2px !important
 }
 
 .focus\:\!outline-hidden:focus {
