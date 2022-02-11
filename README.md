@@ -81,3 +81,7 @@ Answer to foo bar dilemma.
 ### 0.1.0 ###
 
 * Release the plugin
+
+
+## License
+[MIT](./LICENSE)  
