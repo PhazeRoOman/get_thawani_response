@@ -14,7 +14,7 @@
   </p>
 </p>
   <p align="center">
-  <!-- <a href="https://github.com/PhazeRoOman/thawani-for-woocommerce/releases/latest/download/thawani-for-woocommerce.zip">Download latest release</a> -->
+  <a href="https://github.com/PhazeRoOman/get_thawani_response/releases/latest/download/get_thawani_response.zip">Download latest release</a>
 </p>
 <br />
 
