@@ -31,14 +31,14 @@
 
 This plugin helps you to get the Response of a success checkout. The Json file will be validated by Thawani Pay, so You can go to **PRODUCTION**.
 
----
-
 ## Description ##
 
 This plugin will work only with [Thawani-For-WooCommerce](https://github.com/PhazeRoOman/thawani-for-woocommerce).
 
-As The part of getting started to enable the payment gawteway in PRODUCTION Thawani Pay request a success JSON payload.
-This plugin was made for **non-technical user** who know how to install plugins and use WordPress as administrator.
+**👋 NOTE**
+
+> As The part of getting started to enable the payment gawteway in PRODUCTION Thawani Pay request a success JSON payload.
+> This plugin was made for **non-technical user** who know how to install plugins and use WordPress as administrator.
 
 
 ## Installation ##
