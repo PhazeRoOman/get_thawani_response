@@ -12,6 +12,8 @@
  * @package         Get_thawani_response
  */
 
+// import  plugin -> to add plugins functions
+include_once ABSPATH . 'wp-admin/includes/plugin.php';
 
 define('THAWANI_PLUGIN_DIR' , plugin_dir_path( __DIR__ )); 
 define('THAWANI_RESPONSE_DIR' , plugin_dir_path( __FILE__ )); 
