@@ -47,7 +47,7 @@ Please open an issue describing your steps for us to fix the issue.
 
 Because we care for non-technical users ;)
 
-Answer to foo bar dilemma.
+
 
 == Screenshots ==
 
