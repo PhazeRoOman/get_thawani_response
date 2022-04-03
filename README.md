@@ -58,10 +58,10 @@ This plugin will work only with [Thawani-For-WooCommerce](https://github.com/Pha
 
 ## Frequently Asked Questions ##
 
-#### **Why I need this plugin ?**
+#### **Why do I need this plugin?**
 
-If you are non-technical user and you want to integrate the solution without need for a developer
-then this plugin for you? 
+If you are non-technical user and you want to integrate the solution without need for a developer,
+then this plugin for you!
 
 #### **Do I keep this plugin activated?**
 
