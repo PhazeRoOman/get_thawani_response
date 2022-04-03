@@ -29,7 +29,7 @@
 
 
 
-This plugin helps you to get the Response of a success checkout. The Json file will be validated by Thawani Pay, so You can go to **PRODUCTION**.
+This plugin helps you to get the Response of a success checkout. The Json file will be validated by Thawani Pay, so you can go to **PRODUCTION**.
 
 ## Description ##
 
@@ -37,19 +37,19 @@ This plugin will work only with [Thawani-For-WooCommerce](https://github.com/Pha
 
 **👋 NOTE**
 
-> As The part of getting started to enable the payment gawteway in PRODUCTION Thawani Pay request a success JSON payload.
+> As part of getting started, enabling the payment gateway in PRODUCTION: Thawani Pay requests a success JSON payload.
 > This plugin was made for **non-technical user** who know how to install plugins and use WordPress as administrator.
 
 
 ## Installation ##
 
-1. download the plugin.
+1. Download the plugin.
 2. Enter your administrator dashboard.
 3. Upload the plugin.
-4. Activate the plugin ( make sure that thawani-for-woocommerce is activated and the keys are working).
+4. Activate the plugin (make sure that thawani-for-woocommerce is activated and the keys are working).
 5. Go to the get thawani response page & add your successful checkout session. 
 6. Press on download button & send it to Thawani Pay. 
-7. That's it. 
+7. That's it!
 
 
 ## Screenshots ##
@@ -58,14 +58,14 @@ This plugin will work only with [Thawani-For-WooCommerce](https://github.com/Pha
 
 ## Frequently Asked Questions ##
 
-#### **Why I need this plugin ?**
+#### **Why do I need this plugin?**
 
-If you are non-technical user and you want to integrate the solution without need for a developer
-then this plugin for you? 
+If you are non-technical user and you want to integrate the solution without need for a developer,
+then this plugin for you!
 
 #### **Do I keep this plugin activated?**
 
-Once you get the response you can remove the plugin or disable it.
+Once you get the response, you can remove the plugin or disable it.
 
 #### **The plugin did not work ?**
 
